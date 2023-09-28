@@ -199,8 +199,9 @@ body {
     margin-bottom: 10px;
 }
 
-#product1 {
+#product1, #feedback {
     text-align: center;
+    margin-top: 40px;
 }
 
 #product1 .pro {
@@ -374,6 +375,71 @@ body {
     text-shadow: 1px 1px #000;
     font-weight: 500;
     padding-bottom: 15px;
+}
+
+#feedback {
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#feedback .container {
+    padding: 0 10vw;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+#feedback .container::-webkit-scrollbar {
+    display: none;
+}
+
+#feedback .container .card {
+    margin-right: 40px;
+}
+
+#feedback .container .card img {
+    /* position: relative; */
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    border: 1px solid #088178;
+    border-radius: 5px;
+}
+
+#feedback .container .card img:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+    width: 450px;
+    height: 550px;
+    transition: 0.5s;
+
+}
+
+.pre-btn,
+.nxt-btn {
+    border: none;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    z-index: 9;
+    opacity: 0.2;
+}
+
+.pre-btn {
+    left: 60px;
+}
+
+.nxt-btn {
+    right: 60px;
+}
+
+.pre-btn:hover,
+.nxt-btn:hover {
+    opacity: 1;
 }
 
 #newsletter {
