@@ -1,10 +1,14 @@
 #mobile {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     display: none;
 }
 
-@media (max-width: 799px) {
+#close {
+    display: none;
+}
+
+@media (max-width: 820px) {
     #navbar {
         display: flex;
         flex-direction: column;
@@ -18,10 +22,15 @@
         background-color: #e3e6f3;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 80px 0 0 10px;
+        transition: 0.3s;
     }
     
     #navbar li {
         margin-bottom: 25px;
+    }
+
+    #navbar.active {
+        right: 0px;
     }
 
     #mobile {
@@ -33,5 +42,106 @@
         color: #1a1a1a;
         font-size: 24px;
         padding-left: 20px;
+    }
+
+    #close {
+        display: block;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+    }
+
+    #lg-bag {
+        display: none;
+    }
+
+    #product1 .pro-container {
+        justify-content: center;
+    }
+
+    #product1 .pro {
+        margin: 15px 30px;
+    }
+
+    #sm-banner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sm-banner .banner-box {
+        width: 100%;
+        margin: 20px 40px;
+    }
+
+    #banner {
+        height: 25vh;
+    }
+
+    #feedback .container .card img {
+        width: 400px;
+        height: 400px;
+    }
+
+    #newsletter {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #newsletter .form {
+        width: 70%;
+    }
+}
+
+@media (max-width: 477px) {
+    #header {
+        padding:0 30px;
+    }
+
+    #product1, #feedback {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #product1 h2 {
+        font-size: 30px;
+    }
+
+    #product1 p,
+    #feedback p {
+        margin-top: 0;
+    }
+
+    #product1 .pro {
+        width: 100%;
+    }
+
+    #banner h2,
+    #feedback h2 {
+        font-size: 25px;
+        padding: 10px 0;
+    }
+
+    #feedback .container .card img {
+        width: 300px;
+        height: 300px;
+    }
+
+    #newsletter .form {
+        width: 100%;
+    }
+
+    footer .install .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .install .row img {
+        width: 45%;
+    }
+
+    .section-m1 {
+        margin: 0;
     }
 }
