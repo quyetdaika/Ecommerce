@@ -23,6 +23,7 @@ const close = document.getElementById('close');
 
 if(bar) {
     bar.addEventListener('click', () => {
+        console.log(bar);
         nav.classList.add('active');
     })
 }
