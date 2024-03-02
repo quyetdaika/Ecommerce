@@ -1,10 +1,10 @@
 # Ecommerce project - BKShop
-## Giới thiệu
-* BKShop là một dự án cá nhân về front-end (Trang web tĩnh), trưng bày và bán các sản phẩm lưu niệm đến từ HUST
-* Mục đích:  Thực hành và rèn luyện các kiến thức đã học
-* Số người tham gia : 1
-* Thời gian hoàn thành : 2 tuần
-* Ngôn ngữ và công cụ:
+## Introduction
+* BKShop is my personal front-end (static website) project to showcase and sell souvenir products from Hanoi University of Science and Technology (HUST).
+* Purpose: To practice and hone my knowledge and skills in front-end web development using HTML, CSS, and possibly JavaScript. This project serves as my programming portfolio to demonstrate capabilities in building static websites and online stores.
+* Contributor : 1
+* Time complete : 2 weeks
+* Languages and Tools
 <img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
 <img align="left" alt="CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
 <img align="left" alt="JavaScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
