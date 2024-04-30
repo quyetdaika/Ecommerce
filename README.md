@@ -1,4 +1,4 @@
-# Ecommerce project - BKShop
+# Ecommerce FE project - BKShop
 ## Introduction
 * BKShop is my personal front-end (static website) project to showcase and sell souvenir products from Hanoi University of Science and Technology (HUST).
 * Purpose: To practice and hone my knowledge and skills in front-end web development using HTML, CSS, and possibly JavaScript. This project serves as my programming portfolio to demonstrate capabilities in building static websites and online stores.
