@@ -1,4 +1,6 @@
 # Ecommerce FE project - BKShop
+### Deploy link
+[BKShop deploy link](https://nvq29apr.github.io/Ecommerce/) is provided by Github.
 ## Introduction
 * BKShop is my personal front-end (static website) project to showcase and sell souvenir products from Hanoi University of Science and Technology (HUST).
 * Purpose: To practice and hone my knowledge and skills in front-end web development using HTML, CSS, and possibly JavaScript. This project serves as my programming portfolio to demonstrate capabilities in building static websites and online stores.
@@ -25,8 +27,6 @@
 ![deal_sale](https://github.com/nvq29Apr/Ecommerce/assets/119597631/c84c7170-8b70-4a85-aca9-04490b52d4e5)
 ### Responsive
 ![responsive-ezgif com-video-to-gif-converter](https://github.com/nvq29Apr/Ecommerce/assets/119597631/880f1b85-817e-4222-995e-0e881d0c098d)
-### Deploy link
-[BKShop deploy link](https://nvq29apr.github.io/Ecommerce/) is provided by Github.
 
 ## Image resource
 [BKshop - Hệ thống quà tặng ĐHBK Hà Nội](https://www.facebook.com/BKsouvenirshop/photos_by)
